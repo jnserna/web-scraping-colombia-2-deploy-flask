@@ -1,7 +1,4 @@
 # web-scraping-colombia-2-deploy-flask
-This repo contains a web scraper deployed using Flask.
-
-# web-scraping-colombia-1-deploy-flask
 #
 This repo contains a basic web scraper deployed using Flask. The "core code" for the search is a web scraper for a popular ecommerce in Colombia and Latin America.
 #
