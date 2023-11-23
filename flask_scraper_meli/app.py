@@ -32,7 +32,7 @@ def buscar(articulo):
 	lst_articulo = []
 	for div in soup.find_all(name="div", attrs={"class":"ui-search-result__content-wrapper"}):
 		titulo = div.find("h2", attrs={"class":"ui-search-item__title"}).text
-		precio = div.find("span", attrs={"class":"price-tag-fraction"}).text
+		precio = div.find("span", attrs={"class":"andes-money-amount__fraction"}).text
 
 		lst_articulo.append([titulo, precio])
 
